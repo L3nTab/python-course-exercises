@@ -1,0 +1,5 @@
+arv = int(input("sisete arv"))
+if 10 <= arv <= 20:
+    print("arv asub vahemikus")
+else:
+    print("arv ei asu vahemikus")

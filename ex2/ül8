@@ -1,0 +1,5 @@
+arv = float(input("siseta arv"))
+if arv > 0:
+    print("arv on postiivne")
+else:
+    print("arv ei ole positiivne")

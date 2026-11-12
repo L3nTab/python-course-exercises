@@ -1,0 +1,5 @@
+parool = input("siseta parool")
+if parool == "python123":
+    print("ligipääs lubatud")
+else:
+    print("vale parool")

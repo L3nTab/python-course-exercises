@@ -1,0 +1,8 @@
+True
+True
+False
+True
+
+"and" tagastab "True" ainult siis, kui mõlemad tingimused on tõesed
+"or" tagastab "True" kui vähemalt üks kahest tingimusest on tõene
+"not" muudab "True" väärtuseks "False" ja vastupidi

@@ -1,0 +1,5 @@
+vanus = int(input("siseta vanus"))
+if vanus < 18 or vanus >= 65:
+    print("pileti hind: 6 eurot")
+else:
+    print("pileti hind: 10 eurot")

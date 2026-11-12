@@ -1,0 +1,3 @@
+vanus = int(input("siseta vanus"))
+if vanus >= 18:
+    print("oled täisealine")

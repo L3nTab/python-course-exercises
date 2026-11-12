@@ -1,0 +1,9 @@
+värv = input("siseta valgusfloori värv (punane,kollane,roheline)").strip().lower()
+if värv == "punane":
+    print("seisa")
+elif värv == "kollane":
+    print("valmistu")
+elif värv == "roheline":
+    print("liigu")
+else:
+    print("tundumatu värv")

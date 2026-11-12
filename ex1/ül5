@@ -1,0 +1,5 @@
+int("123")#yes
+int("12.3")#no
+float("12.3")#yes
+float("tere")#no
+str(25)#yes

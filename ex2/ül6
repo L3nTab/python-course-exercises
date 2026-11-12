@@ -1,0 +1,3 @@
+arv = int(input("siseta arv"))
+if arv % 5 == 0:
+    print("arv jagub viiega")

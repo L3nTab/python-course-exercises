@@ -1,0 +1,13 @@
+punktid = int(input("siseta punktid(0-100)"))
+if 90 <= punktid <= 100:
+    print("hinne: 5")
+elif 75 <= punktid <= 89:
+    print("hinne: 4")
+elif 50 <= punktid <= 74:
+    print("hinne: 3")
+elif 20 <= punktid <= 49:
+    print("hinne: 2")
+elif 0 <= punktid <= 19:
+    print("hiine: 1")
+else:
+    print("vigane punktisumma")

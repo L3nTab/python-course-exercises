@@ -1,0 +1,9 @@
+temp = float(input("siseta temperature"))
+if temp < 0:
+    print("külmub")
+elif 0 <= temp <= 0:
+    print("jahe")
+elif 16 <= temp <= 25:
+    print("soe")
+else:
+    print("palav")

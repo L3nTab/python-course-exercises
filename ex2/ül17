@@ -1,0 +1,9 @@
+correct_username = "student"
+correct_pass = "python"
+
+kasutajanimi = input("siseta kasutajanimi")
+parool = input("siseta parool")
+if kasutajanimi == correct_username and parool == correct_pass:
+    print("ligipääs lubatud")
+else:
+    print("ligipääs keelatud")

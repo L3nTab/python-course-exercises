@@ -1,0 +1,6 @@
+pikkus = float(input("Enter length"))
+laius = float(input("Enter width"))
+pindala = pikkus * laius
+Ümbermõõt = 2 * (pikkus + laius)
+print("Pindala:", pindala)
+print("Ümbermõõt:", Ümbermõõt)

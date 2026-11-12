@@ -1,0 +1,8 @@
+a = float(input("siseta 1. külje pikkus"))
+b = float(input("siseta 2. külje pikkus"))
+c = float(input("siseta 3. külje pikkus"))
+
+if (a + b > c) and (a + c > b) and (b + c > a):
+    print("selliste külgedega kolmnurk saab eksisteerida")
+else:
+    print("selliste külgedega kolmnurk ei saa eksisteerida")

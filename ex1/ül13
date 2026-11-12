@@ -1,0 +1,3 @@
+arv = input("Siseta arv")
+viimased = arv[-2:]
+print(viimased)

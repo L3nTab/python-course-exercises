@@ -1,0 +1,6 @@
+arv1 = int(input("siseta esimene arv"))
+arv2 = int(input("siseta teine arv"))
+if arv1 > arv2:
+    print("suurem arv on arv1")
+else:
+    print("suurem arv on arv2")

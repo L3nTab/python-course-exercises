@@ -1,0 +1,5 @@
+temp = float(input("siseta temperature"))
+if 18 <= temp <= 24:
+    print(" temperatuur on normaalne")
+else:
+    print("hoiatus")

@@ -1,0 +1,9 @@
+a = int(input("esimene arv"))
+b = int(input("teine arv"))
+c = int(input("kolmas arv"))
+suurim = a
+if b > suurim:
+    suurim = b
+if c > suurim:
+    suurim = c
+print("suurim arv on", suurim)

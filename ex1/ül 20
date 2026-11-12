@@ -1,0 +1,3 @@
+C = float(input("Enter in degrees Celsius"))
+F = C * 9 / 5 + 32
+print("Temperature in Fahrenheit:", F)

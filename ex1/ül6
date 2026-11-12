@@ -1,0 +1,1 @@
+age = int(input("kui vana sa oled?"))
