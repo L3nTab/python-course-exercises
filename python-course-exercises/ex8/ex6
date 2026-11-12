@@ -1,0 +1,9 @@
+def korruta(a, b):
+    return a * b
+
+assert korruta(2, 3) == 6
+assert korruta(0, 8) == 0
+assert korruta(-2, 3) == -6
+assert korruta(-4, -5) == 20
+assert korruta(5, 1) == 5
+print("Kõik testid läbitud edukalt")

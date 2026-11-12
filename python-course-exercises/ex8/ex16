@@ -1,0 +1,9 @@
+def ostukorvi_summa(hinnad):
+    return sum(hinnad)
+
+assert ostukorvi_summa([]) == 0
+assert ostukorvi_summa([10]) == 10
+assert ostukorvi_summa([10, 20, 30]) == 60
+assert ostukorvi_summa([0, 15, 0]) == 15
+assert abs(ostukorvi_summa([10.5, 5.25, 2.25]) - 18.0) < 1e-5
+print("Kõik testid läbitud edukalt")

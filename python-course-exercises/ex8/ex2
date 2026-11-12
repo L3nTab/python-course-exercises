@@ -1,0 +1,11 @@
+def suurem(a, b):
+    if a > b:
+        return a
+    return b
+
+assert suurem(5, 3) == 5
+assert suurem(2, 7) == 7
+assert suurem(4, 4) == 4
+assert suurem(-5, -2) == -2
+assert suurem(-10, -15) == -10
+print("Kõik testid läbitud edukalt")

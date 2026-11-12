@@ -1,0 +1,33 @@
+# calculator.py
+def liida(a, b):
+    return a + b
+
+def lahuta(a, b):
+    return a - b
+
+def korruta(a, b):
+    return a * b
+
+def jaga(a, b):
+    return a / b
+
+# test_calculator.py
+from calculator import liida, lahuta, korruta, jaga
+
+assert liida(2, 3) == 5
+assert liida(-1, 1) == 0
+assert liida(0, 0) == 0
+
+assert lahuta(5, 3) == 2
+assert lahuta(3, 5) == -2
+assert lahuta(0, 0) == 0
+
+assert korruta(4, 3) == 12
+assert korruta(-2, 5) == -10
+assert korruta(0, 100) == 0
+
+assert jaga(10, 2) == 5.0
+assert jaga(9, 3) == 3.0
+assert jaga(-6, 2) == -3.0
+
+print("Kõik testid läbitud edukalt")

@@ -1,0 +1,12 @@
+def on_palindroom(tekst):
+    puhastatud = "".join(tekst.lower().split())
+    return puhastatud == puhastatud[::-1]
+
+assert on_palindroom("anna") == True
+assert on_palindroom("kajak") == True
+assert on_palindroom("") == True
+assert on_palindroom("A man a plan a canal Panama") == True
+assert on_palindroom("tere") == False
+assert on_palindroom("Sai aknal on lanka ias") == True
+assert on_palindroom("python") == False
+print("Kõik testid läbitud edukalt")

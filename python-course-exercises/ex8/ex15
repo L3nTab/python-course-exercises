@@ -1,0 +1,9 @@
+def arvuta(a, b):
+    return a + b
+
+assert arvuta(2, 3) == 5
+assert arvuta(-1, 1) == 0
+assert arvuta(0, 0) == 0
+assert arvuta(-5, -5) == -10
+assert arvuta(100, 200) == 300
+print("Kõik testid läbitud edukalt")

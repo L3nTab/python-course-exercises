@@ -1,0 +1,8 @@
+def variant_b(arv):
+    return arv * 2
+
+assert variant_b(5) == 10
+assert variant_b(0) == 0
+assert variant_b(-3) == -6
+assert variant_b(2.5) == 5.0
+print("Kõik testid läbitud edukalt")

@@ -1,0 +1,9 @@
+def sona_pikkus(tekst):
+    return len(tekst)
+
+assert sona_pikkus("") == 0
+assert sona_pikkus("a") == 1
+assert sona_pikkus("   ") == 3
+assert sona_pikkus("Õun") == 3
+assert sona_pikkus("Tere tulemast Pythoni maailma!") == 30
+print("Kõik testid läbitud edukalt")

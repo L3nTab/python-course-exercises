@@ -1,0 +1,7 @@
+def arvuta_maks(hind, maksuprotsent):
+    return hind * maksuprotsent / 100
+
+assert arvuta_maks(100, 22) == 22.0
+assert arvuta_maks(200, 20) == 40.0
+assert arvuta_maks(50, 9) == 4.5
+print("Kõik testid läbitud edukalt")

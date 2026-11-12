@@ -1,0 +1,36 @@
+def maarake_hinne(punktid):
+    if not (0 <= punktid <= 100):
+        raise ValueError("Punktid peavad olema vahemikus 0 kuni 100")
+    if punktid >= 90:
+        return 5
+    elif punktid >= 75:
+        return 4
+    elif punktid >= 50:
+        return 3
+    elif punktid >= 20:
+        return 2
+    else:
+        return 1
+
+assert maarake_hinne(90) == 5
+assert maarake_hinne(100) == 5
+assert maarake_hinne(89) == 4
+assert maarake_hinne(75) == 4
+assert maarake_hinne(74) == 3
+assert maarake_hinne(50) == 3
+assert maarake_hinne(49) == 2
+assert maarake_hinne(20) == 2
+assert maarake_hinne(19) == 1
+assert maarake_hinne(0) == 1
+
+try:
+    maarake_hinne(101)
+except ValueError:
+    pass
+
+try:
+    maarake_hinne(-1)
+except ValueError:
+    pass
+
+print("Kõik testid läbitud edukalt")

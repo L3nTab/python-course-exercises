@@ -1,0 +1,9 @@
+def celsius_fahrenheit(c):
+    return c * 9 / 5 + 32
+
+assert celsius_fahrenheit(0) == 32.0
+assert celsius_fahrenheit(100) == 212.0
+assert celsius_fahrenheit(-40) == -40.0
+assert celsius_fahrenheit(20) == 68.0
+assert abs(celsius_fahrenheit(37) - 98.6) < 1e-5
+print("Kõik testid läbitud edukalt")

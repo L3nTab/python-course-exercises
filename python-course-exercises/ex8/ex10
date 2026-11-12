@@ -1,0 +1,13 @@
+def on_kolmnurk(a, b, c):
+    if a <= 0 or b <= 0 or c <= 0:
+        return False
+    return (a + b > c) and (a + c > b) and (b + c > a)
+
+assert on_kolmnurk(3, 4, 5) == True
+assert on_kolmnurk(1, 1, 1) == True
+assert on_kolmnurk(5, 5, 8) == True
+assert on_kolmnurk(1, 2, 3) == False
+assert on_kolmnurk(0, 4, 5) == False
+assert on_kolmnurk(-3, 4, 5) == False
+assert on_kolmnurk(10, 2, 3) == False
+print("Kõik testid läbitud edukalt")

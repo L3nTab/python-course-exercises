@@ -1,0 +1,11 @@
+def absoluut(arv):
+    if arv >= 0:
+        return arv
+    return -arv
+
+assert absoluut(5) == 5
+assert absoluut(-5) == 5
+assert absoluut(0) == 0
+assert absoluut(3.14) == 3.14
+assert absoluut(-2.5) == 2.5
+print("Kõik testid läbitud edukalt")

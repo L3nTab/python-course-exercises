@@ -1,0 +1,8 @@
+def kuup(arv):
+    return arv ** 3
+
+assert kuup(2) == 8
+assert kuup(3) == 27
+assert kuup(-2) == -8
+assert kuup(0) == 0
+print("Kõik testid läbitud edukalt")

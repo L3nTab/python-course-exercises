@@ -1,0 +1,26 @@
+def lopp_hind(hind, soodustus):
+    if hind < 0 or not (0 <= soodustus <= 100):
+        raise ValueError("Lubamatud hinna või soodustuse väärtused")
+    return hind * (1 - soodustus / 100)
+
+assert lopp_hind(100, 0) == 100.0
+assert lopp_hind(100, 100) == 0.0
+assert lopp_hind(200, 15) == 170.0
+assert abs(lopp_hind(50, 33.3) - 33.35) < 1e-2
+
+try:
+    lopp_hind(-10, 20)
+except ValueError:
+    pass
+
+try:
+    lopp_hind(100, 105)
+except ValueError:
+    pass
+
+try:
+    lopp_hind(100, -5)
+except ValueError:
+    pass
+
+print("Kõik testid läbitud edukalt")
