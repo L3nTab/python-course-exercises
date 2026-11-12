@@ -1,0 +1,10 @@
+with open("algtekst.txt", "w", encoding="utf-8") as fail:
+    fail.write("See on esimene lause. See on teine lause. Kolmas lause on siin. Neljas lause räägib millestki. Viies lause lõpetab teksti.")
+
+with open("algtekst.txt", "r", encoding="utf-8") as fail:
+    tekst = fail.read()
+
+with open("suured_tahed.txt", "w", encoding="utf-8") as fail:
+    fail.write(tekst.upper())
+
+print("Tekst on teisendatud ülemisse registrisse ja salvestatud.")

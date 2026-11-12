@@ -1,0 +1,7 @@
+arvud = [15, 8, 23, 4, 16, 42, 7, 19]
+print(f"Kogus: {len(arvud)}")
+print(f"Summa: {sum(arvud)}")
+print(f"Min: {min(arvud)}")
+print(f"Max: {max(arvud)}")
+print(f"Keskmine: {sum(arvud) / len(arvud)}")
+print(f"Sorteeritud: {sorted(arvud)}")

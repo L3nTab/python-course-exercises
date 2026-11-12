@@ -1,0 +1,8 @@
+with open("arvud.txt", "r", encoding="utf-8") as fail:
+    arvud = [int(rida.strip()) for rida in fail if rida.strip()]
+
+paariskogus = sum(1 for arv in arvud if arv % 2 == 0)
+paaritkogus = sum(1 for arv in arvud if arv % 2 != 0)
+
+print(f"Paarisarve: {paariskogus}")
+print(f"Paarituid arve: {paaritkogus}")

@@ -1,0 +1,7 @@
+i = 1
+while i <= 10:
+    if i % 2 == 0:
+        print(f"{i} on paaris")
+    else:
+        print(f"{i} on paaritu")
+    i += 1

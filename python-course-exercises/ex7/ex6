@@ -1,0 +1,16 @@
+with open("tooted.txt", "w", encoding="utf-8") as fail:
+    fail.write("Piim\nLeib\nJuust\nÕun\nBanaan\nJogurt")
+
+otsitav = input("Sisesta toode: ").strip().lower()
+
+found = False
+with open("tooted.txt", "r", encoding="utf-8") as fail:
+    for rida in fail:
+        if rida.strip().lower() == otsitav:
+            found = True
+            break
+
+if found:
+    print("Toode leiti nimekirjast.")
+else:
+    print("Toodet ei leitud.")

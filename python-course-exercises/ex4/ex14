@@ -1,0 +1,4 @@
+eesnimi1 = input("Esimene eesnimi: ")
+eesnimi2 = input("Teine eesnimi: ")
+perekonnanimi = input("Perekonnanimi: ")
+print(f"Initsiaalid: {eesnimi1[0].upper()}.{eesnimi2[0].upper()}.{perekonnanimi[0].upper()}.")

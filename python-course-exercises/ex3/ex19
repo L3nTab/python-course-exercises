@@ -1,0 +1,5 @@
+while True:
+    tekst = input("Sisesta tekst: ")
+    if tekst == "STOP":
+        print("Programm lõpetas töö.")
+        break

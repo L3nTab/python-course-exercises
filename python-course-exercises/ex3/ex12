@@ -1,0 +1,19 @@
+summa = 0
+for i in range(1, 6):
+    arv = int(input(f"Sisesta {i}. arv: "))
+    summa += arv
+print(f"Arvude summa on {summa}")
+
+count = int(input("Mitu arvu soovid sisestada? "))
+summa = 0
+for i in range(count):
+    arv = int(input("Sisesta arv: "))
+    summa += arv
+
+if count > 0:
+    keskmine = summa / count
+else:
+    keskmine = 0
+
+print(f"Summa: {summa}")
+print(f"Keskmine: {keskmine}")

@@ -1,0 +1,19 @@
+def hommik():
+    print("Äratus ja hommikusöök")
+    print("Hommikune võimlemine")
+    print("Päeva plaani koostamine")
+
+def paev():
+    print("Esimese päeva tegevused")
+    print("Teise päeva tegevused")
+    print("Kolmanda päeva tegevused")
+
+def ohtu():
+    print("Õhtusöök")
+    print("Kultuuriüritus")
+    print("Valmistumine uneks")
+
+hommik()
+paev()
+ohtu()
+ohtu()

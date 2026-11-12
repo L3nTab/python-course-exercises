@@ -1,0 +1,6 @@
+kasutajad = ["mari", "juhan", "kati", "peeter", "anna"]
+nimi = input("Sisesta kasutajanimi: ")
+if nimi.lower() in kasutajad:
+    print("Kasutaja on registreeritud.")
+else:
+    print("Kasutajat ei leitud.")

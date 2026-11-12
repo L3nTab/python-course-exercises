@@ -1,0 +1,7 @@
+lause = input("Sisesta lause: ")
+taishpaevikud = "aeiouõäöü"
+kokku = 0
+for char in lause.lower():
+    if char in taishpaevikud:
+        kokku += 1
+print(f"Täishäälikuid kokku: {kokku}")

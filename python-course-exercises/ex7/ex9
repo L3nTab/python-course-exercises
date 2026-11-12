@@ -1,0 +1,10 @@
+with open("arvud.txt", "r", encoding="utf-8") as fail:
+    arvud = [int(rida.strip()) for rida in fail if rida.strip()]
+
+suurim = max(arvud)
+vaikseim = min(arvud)
+vahe = suurim - vaikseim
+
+print(f"Suurim arv: {suurim}")
+print(f"Väikseim arv: {vaikseim}")
+print(f"Vahe: {vahe}")

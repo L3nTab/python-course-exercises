@@ -1,0 +1,3 @@
+hinded = [4, 5, 3, 4, 2, 5, 4, 3, 5, 5]
+for i in range(1, 6):
+    print(f"Hinne {i}: {hinded.count(i)} korda")

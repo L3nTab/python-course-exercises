@@ -1,0 +1,2 @@
+tekst = input("Sisesta tekst: ")
+print(f"Puhastatud tekst: {tekst.strip()}")

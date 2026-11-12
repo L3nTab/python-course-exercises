@@ -1,0 +1,7 @@
+with open("tekst.txt", "w", encoding="utf-8") as fail:
+    fail.write("Python on populaarne programmeerimiskeel.\nPython sobib hästi algajatele.\nFailide töötlemine on oluline oskus.")
+
+with open("tekst.txt", "r", encoding="utf-8") as fail:
+    tekst = fail.read()
+    sonad = tekst.split()
+    print(f"Tekstis on {len(sonad)} sõna.")

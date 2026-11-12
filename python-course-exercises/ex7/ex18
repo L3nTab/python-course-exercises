@@ -1,0 +1,18 @@
+arvud = []
+for i in range(5):
+    arv = int(input(f"Sisesta {i+1}. täisarv: "))
+    arvud.append(arv)
+
+with open("sisestatud_arvud.txt", "w", encoding="utf-8") as fail:
+    for arv in arvud:
+        fail.write(f"{arv}\n")
+
+with open("sisestatud_arvud.txt", "r", encoding="utf-8") as fail:
+    loetud_arvud = [int(rida.strip()) for rida in fail if rida.strip()]
+
+summa = sum(loetud_arvud)
+keskmine = summa / len(loetud_arvud) if loetud_arvud else 0
+
+print(f"Sisestatud arvud: {', '.join(map(str, loetud_arvud))}")
+print(f"Summa: {summa}")
+print(f"Keskmine: {keskmine}")

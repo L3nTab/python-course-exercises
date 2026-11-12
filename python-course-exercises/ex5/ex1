@@ -1,0 +1,10 @@
+linnad = ["Tartu", "Tallinn", "Pärnu", "Viljandi", "Narva"]
+taiservud = [1, 2, 3, 4, 5, 6, 7]
+keeled = ["Python", "JavaScript", "C++", "Java", "Ruby"]
+
+print(f"Linnad: {linnad}")
+print(f"Linnade arv: {len(linnad)}")
+print(f"Täisarvud: {taiservud}")
+print(f"Täisarvude arv: {len(taiservud)}")
+print(f"Keeled: {keeled}")
+print(f"Keelete arv: {len(keeled)}")

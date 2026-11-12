@@ -1,0 +1,5 @@
+def keskmine(a, b, c):
+    return (a + b + c) / 3
+
+tulemus = keskmine(4, 8, 12) * 2
+print(tulemus)

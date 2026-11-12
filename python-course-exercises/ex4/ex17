@@ -1,0 +1,6 @@
+sona = input("Sisesta sõna: ")
+puhastatud = sona.replace(" ", "").lower()
+if puhastatud == puhastatud[::-1]:
+    print("Tegemist on palindroomiga.")
+else:
+    print("Ei ole palindroom.")

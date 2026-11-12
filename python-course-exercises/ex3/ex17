@@ -1,0 +1,11 @@
+attempts = 3
+while attempts > 0:
+    parool = input("Sisesta parool: ")
+    if parool == "python13":
+        print("Ligipääs lubatud!")
+        break
+    else:
+        attempts -= 1
+        print("Vale parool!")
+if attempts == 0:
+    print("Ligipääs blokeeritud!")

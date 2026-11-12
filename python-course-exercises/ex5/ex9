@@ -1,0 +1,6 @@
+ostukorv = []
+for i in range(5):
+    toode = input(f"Sisesta {i+1}. toode: ")
+    ostukorv.append(toode)
+print(f"Ostukorv: {ostukorv}")
+print(f"Kaupade arv: {len(ostukorv)}")

@@ -1,0 +1,6 @@
+saldo = 1000
+aasta = 1
+while aasta <= 10:
+    saldo += saldo * 0.05
+    print(f"{aasta}. aasta: {saldo:.2f}")
+    aasta += 1

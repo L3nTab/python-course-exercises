@@ -1,0 +1,23 @@
+arvud = [-12, 5, 0, 18, -7, 23, -3, 9]
+
+positiivsed_arv = 0
+negatiivsed_arv = 0
+nullid = 0
+positiivsete_summa = 0
+negatiivsed_jardend = []
+
+for arv in arvud:
+    if arv > 0:
+        positiivsed_arv += 1
+        positiivsete_summa += arv
+    elif arv < 0:
+        negatiivsed_arv += 1
+        negatiivsed_jardend.append(arv)
+    else:
+        nullid += 1
+
+print(f"Positiivseid: {positiivsed_arv}")
+print(f"Negatiivseid: {negatiivsed_arv}")
+print(f"Nulle: {nullid}")
+print(f"Positiivsete summa: {positiivsete_summa}")
+print(f"Negatiivsed arvud: {negatiivsed_jardend}")

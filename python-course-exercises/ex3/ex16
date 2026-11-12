@@ -1,0 +1,7 @@
+while True:
+    parool = input("Sisesta parool: ")
+    if parool == "python13":
+        print("Ligipääs lubatud!")
+        break
+    else:
+        print("Vale parool!")

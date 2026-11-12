@@ -1,0 +1,11 @@
+import string
+
+with open("tekst.txt", "r", encoding="utf-8") as fail:
+    tekst = fail.read()
+
+sonad = tekst.split()
+puhastatud_sonad = [sona.strip(string.punctuation) for sona in sonad]
+pikim_sona = max(puhastatud_sonad, key=len)
+
+print(f"Pikim sõna: {pikim_sona}")
+print(f"Pikkus: {len(pikim_sona)}")

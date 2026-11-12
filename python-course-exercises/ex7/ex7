@@ -1,0 +1,6 @@
+failinimi = input("Sisesta failinimi: ")
+try:
+    with open(failinimi, "r", encoding="utf-8") as fail:
+        print(fail.read())
+except FileNotFoundError:
+    print(f"Viga: sellist faili ei leitud.")

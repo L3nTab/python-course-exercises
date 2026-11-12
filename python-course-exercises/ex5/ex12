@@ -1,0 +1,8 @@
+esimene = [12, 15, 18]
+teine = [21, 24, 27]
+uusi = esimene + teine
+uusi.append(30)
+print(uusi)
+print(uusi[0])
+print(uusi[-1])
+print(sum(uusi))

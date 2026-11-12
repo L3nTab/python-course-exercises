@@ -1,0 +1,5 @@
+with open("nimed.txt", "r", encoding="utf-8") as fail:
+    readed = [rida.strip() for rida in fail if rida.strip()]
+if readed:
+    print(f"Esimene nimi: {readed[0]}")
+    print(f"Viimane nimi: {readed[-1]}")

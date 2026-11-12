@@ -1,0 +1,8 @@
+def ristkulik(laius, korgus):
+     pindala = laius * korgus
+     ümbermõõt = 2 * (laius + korgus)
+     print(f"Pindala: {pindala}, Ümbermõõt: {ümbermõõt}")
+
+ristkulik(3, 4)
+ristkulik(5, 10)
+ristkulik(7, 2)

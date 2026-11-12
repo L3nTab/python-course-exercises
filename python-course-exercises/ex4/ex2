@@ -1,0 +1,3 @@
+eesnimi = input("Eesnimi: ")
+perekonnannimi = input("Perekonnanimi: ")
+print(f"Täisnimi: {eesnimi} {perekonnannimi}")

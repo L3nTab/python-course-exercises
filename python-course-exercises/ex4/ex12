@@ -1,0 +1,7 @@
+lause = input("Lause: ")
+otsitav = input("Otsitav: ")
+indeks = lause.find(otsitav)
+if indeks != -1:
+    print(f"Leitud indeksilt {indeks}.")
+else:
+    print("Ei leitud.")

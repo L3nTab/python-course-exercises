@@ -1,0 +1,19 @@
+with open("tekst.txt", "r", encoding="utf-8") as fail:
+    readed_lines = fail.readlines()
+
+total_lines = len(readed_lines)
+non_empty_lines = sum(1 for rida in readed_lines if rida.strip())
+
+full_text = "".join(readed_lines)
+total_chars = len(full_text)
+
+all_words = full_text.split()
+total_words = len(all_words)
+
+avg_words_per_line = total_words / non_empty_lines if non_empty_lines > 0 else 0
+
+print(f"Ridade arv: {total_lines}")
+print(f"Mittetühjade ridade arv: {non_empty_lines}")
+print(f"Sõnade arv: {total_words}")
+print(f"Sümbolite arv (koos tühikutega): {total_chars}")
+print(f"Keskmine sõnade arv reas: {avg_words_per_line:.2f}")

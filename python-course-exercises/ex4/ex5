@@ -1,0 +1,4 @@
+sona = input("Sisesta sõna: ")
+korduste_arv = int(input("Korduste arv: "))
+for _ in range(korduste_arv):
+    print(sona)

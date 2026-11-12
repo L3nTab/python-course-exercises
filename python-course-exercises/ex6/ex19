@@ -1,0 +1,11 @@
+def ruut(arv):
+    return arv ** 2
+
+def kuup(arv):
+    return arv ** 3
+
+tulemus = ruut(3) + ruut(4)
+print(tulemus)
+
+kombineeritud = kuup(2) + ruut(5)
+print(kombineeritud)

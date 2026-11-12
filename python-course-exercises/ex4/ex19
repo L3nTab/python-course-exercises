@@ -1,0 +1,14 @@
+tahemark = input("Sisesta tähemärk: ")
+taishpaevikud = "aeiouõäöü"
+kaashpaevikud = "bcdfghjklmnpqrstvxyzwd"
+
+if len(tahemark) != 1:
+    print("Viga: sisesta täpselt üks sümbol.")
+elif tahemark.lower() in taishpaevikud:
+    print("Tegemist on täishäälikuga.")
+elif tahemark.lower() in kaashpaevikud:
+    print("Tegemist on kaashäälikuga.")
+elif tahemark.isdigit():
+    print("Tegemist on numbriga.")
+else:
+    print("Tegemist on muuhulgas muu sümboliga.")

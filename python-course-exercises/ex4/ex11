@@ -1,0 +1,4 @@
+lause = input("Sisesta lause: ")
+taht = input("Sisesta täht: ")
+korda = lause.lower().count(taht.lower())
+print(f"Täht {taht} esineb {korda} korda.")

@@ -1,0 +1,8 @@
+def teisenda_sekundid(sekundid):
+    tunnid = sekundid // 3600
+    jääk = sekundid % 3600
+    minutid = jääk // 60
+    sek = jääk % 60
+    return tunnid, minutid, sek
+
+print(teisenda_sekundid(3675))

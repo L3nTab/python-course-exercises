@@ -1,0 +1,10 @@
+salasyna = "python"
+katseid = 5
+while katseid > 0:
+    arva = input("Arva salasõna: ")
+    if arva == salasyna:
+        print("Õige vastus!")
+        break
+    else:
+        katseid -= 1
+        print(f"Vale vastus. Katseid jäänud: {katseid}")

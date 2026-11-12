@@ -1,0 +1,6 @@
+with open("tervitus.txt", "w", encoding="utf-8") as fail:
+    fail.write("Tere tulemast Pythoni kursusele!\nTäna õpime failidega töötamist.\nFailides saab andmeid säilitada.")
+
+with open("tervitus.txt", "r", encoding="utf-8") as fail:
+    sisu = fail.read()
+    print(sisu)

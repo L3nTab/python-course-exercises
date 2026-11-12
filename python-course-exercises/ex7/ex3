@@ -1,0 +1,6 @@
+with open("nimed.txt", "w", encoding="utf-8") as fail:
+    fail.write("Mari\nJüri\nAnna\nPeeter\nKati\nMartin")
+
+with open("nimed.txt", "r", encoding="utf-8") as fail:
+    rivide_arv = sum(1 for rida in fail)
+    print(f"Ridade arv: {rivide_arv}")

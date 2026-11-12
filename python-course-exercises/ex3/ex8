@@ -1,0 +1,5 @@
+i = 0
+a = int(input("Mitu korda tervitada? "))
+while i < a:
+    print("Tere!")
+    i += 1

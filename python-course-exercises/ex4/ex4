@@ -1,0 +1,7 @@
+sona = input("Sisesta sõna: ")
+print(f"Tagurpidi: {sona[::-1]}")
+
+tagurpidi = ""
+for char in sona:
+    tagurpidi = char + tagurpidi
+print(f"Tagurpidi: {tagurpidi}")

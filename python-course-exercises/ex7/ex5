@@ -1,0 +1,8 @@
+with open("arvud.txt", "w", encoding="utf-8") as fail:
+    fail.write("12\n8\n25\n4\n19\n32")
+
+with open("arvud.txt", "r", encoding="utf-8") as fail:
+    arvud = [int(rida.strip()) for rida in fail if rida.strip()]
+
+print(f"Arvud: {arvud}")
+print(f"Summa: {sum(arvud)}")

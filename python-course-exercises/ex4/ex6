@@ -1,0 +1,3 @@
+sona = input("Sisesta sõna: ")
+for i, char in enumerate(sona, 1):
+    print(f"{i}. {char}")

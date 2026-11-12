@@ -1,0 +1,6 @@
+algus = int(input("Algus: "))
+lopp = int(input("Lõpp: "))
+suma = 0
+for i in range(algus, lopp + 1):
+    suma += i
+print(f"Summa: {suma}")

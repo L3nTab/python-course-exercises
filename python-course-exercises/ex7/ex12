@@ -1,0 +1,24 @@
+with open("hinded.txt", "w", encoding="utf-8") as fail:
+    fail.write("Mari 5\nJüri 3\nAnna 4\nPeeter 2\nKati 5\nMartin 4")
+
+nimed = []
+hinnded = []
+
+with open("hinded.txt", "r", encoding="utf-8") as fail:
+    for rida in fail:
+        if rida.strip():
+            osad = rida.split()
+            nimed.append(osad[0])
+            hinnded.append(int(osad[1]))
+
+keskmine = sum(hinnded) / len(hinnded)
+korgein = max(hinnded)
+madalaim = min(hinnded)
+
+print(f"Keskmine hinne: {keskmine:.2f}")
+print(f"Kõrgeim hinne: {korgein}")
+print(f"Madalaim hinne: {madalaim}")
+print("\nÕpilased hindedega vähemalt 4:")
+for nimi, hinne in zip(nimed, hinnded):
+    if hinne >= 4:
+        print(nimi)
